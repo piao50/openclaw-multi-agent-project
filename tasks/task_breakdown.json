@@ -1,0 +1,75 @@
+{
+  "project": "2026年多模态大模型研究进展报告",
+  "deadline": "2026-04-05",
+  "repository": "https://github.com/piao50/openclaw-multi-agent-project.git",
+  "default_branch": "main",
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "多模态大模型技术架构演进综述",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "调研视觉-语言模型、音频-语言模型、视频理解等技术架构的演进脉络",
+      "deliverable": "research_data/architecture_evolution.md"
+    },
+    {
+      "id": "T2",
+      "title": "2026年度重要研究成果与突破",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "收集2026年多模态大模型领域的关键论文、模型发布、性能突破",
+      "deliverable": "research_data/breakthroughs_2026.md"
+    },
+    {
+      "id": "T3",
+      "title": "主要玩家进展对比分析",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "OpenAI、Google、Meta、国内厂商（字节、阿里、百度等）的多模态能力对比",
+      "deliverable": "research_data/player_comparison.md"
+    },
+    {
+      "id": "T4",
+      "title": "典型应用场景与落地案例",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "收集多模态大模型在医疗、教育、自动驾驶、创意生产等领域的落地案例",
+      "deliverable": "research_data/application_cases.md"
+    },
+    {
+      "id": "T5",
+      "title": "技术挑战与未来趋势",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "当前面临的技术瓶颈、伦理问题及未来发展方向",
+      "deliverable": "research_data/challenges_and_trends.md"
+    },
+    {
+      "id": "T6",
+      "title": "撰写完整报告初稿",
+      "assignee": "writer",
+      "status": "pending",
+      "depends_on": ["T1","T2","T3","T4","T5"],
+      "description": "基于调研数据撰写完整的Markdown格式报告",
+      "deliverable": "drafts/report_draft_v1.md"
+    },
+    {
+      "id": "T7",
+      "title": "报告评审与修订",
+      "assignee": "reviewer",
+      "status": "pending",
+      "depends_on": ["T6"],
+      "description": "评审初稿质量、数据可靠性、逻辑完整性，给出修改意见",
+      "deliverable": "comments/review_v1.md"
+    },
+    {
+      "id": "T8",
+      "title": "修订定稿与Word文档输出",
+      "assignee": "writer",
+      "status": "pending",
+      "depends_on": ["T7"],
+      "description": "根据评审意见修订报告，输出最终Markdown及Word文档",
+      "deliverable": "drafts/report_final.md, drafts/report_final.docx"
+    }
+  ]
+}
