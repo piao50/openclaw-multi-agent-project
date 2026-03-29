@@ -18,3 +18,7 @@
   - 5个建议性修改：时间错位、参考文献不足等
   - 整体通过，需修订
 - [coordinator] 已通知 writer 根据评审意见修订定稿（T8）
+- [writer] ✅ T8 修订定稿完成 (commit: 27a7e8e) → drafts/report_final.md, drafts/report_final.docx
+  - 全部4个阻塞性问题+5个建议性问题已处理
+  - 标题修正为"2024—2026年"，参考文献扩展至28篇
+- 🎉 **项目完成** — 全部8个任务（T1-T8）已完成
